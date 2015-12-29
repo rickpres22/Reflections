@@ -1,0 +1,3 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By viewing the diffrences in the files I was able to see what had changed in the two files.
+By only looking at the changes the amount of info I had to scan thru to find the error was significantly less.

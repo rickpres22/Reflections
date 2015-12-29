@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git sets up the repository files and structure but does not add any files to it
+Ummmmm to create the repository
