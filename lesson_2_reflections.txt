@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 Git sets up the repository files and structure but does not add any files to it
 Ummmmm to create the repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is a orginizational area that works with the working directory and the repository
+It helps to orginize everything befor a commit is made
