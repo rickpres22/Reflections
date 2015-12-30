@@ -5,3 +5,32 @@ Ummmmm to create the repository
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is a orginizational area that works with the working directory and the repository
 It helps to orginize everything befor a commit is made
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add files to the staging area when they have one logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If you had a stable version of the code but wanted to go off and try someting diffrent
+they would keep track of where you made the branch
+
+How do the diagrams help you visualize the branch structure?
+wow I dont think I can understand the branch structure without the diagrams.  
+I dont see how I get branches out of git status
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: its automatic and does not require a person to look at each change
+Cons: assumptions are being made: if someone deleted something its assumed that both people want it deleted; if someone adds something its assumed that both people want it added
+
+git branch lists all the branches of the branch structure
+git show: showes the diffrence between a commit and its parent if you dont know its parent after a merge
+git branch -d <branch name>: delet a branch name after merging
+git diff: shows diffrence between files in working directory and last committ
+git add <file name>: adds file to staging area
+git checkout <branch name>: to get onto the tip of another branch
+git status: shows state of staging ground
+git log --graph --oneline: shows branching structure of commits
+git remote add <name>: add a remote to a repository
+git remote -v: shows urls where data can be pulled and pushed
+git push <remote name> <branch name>
+
+
